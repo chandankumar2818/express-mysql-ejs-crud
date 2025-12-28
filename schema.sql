@@ -1,0 +1,28 @@
+/* CREATE DATABASE testdb;
+
+USE testdb;
+
+CREATE TABLE testdb (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(50),
+  email VARCHAR(50)
+); */
+/* 
+ CREATE TABLE new_delta(
+  id VARCHAR(50) PRIMARY KEY,
+  username VARCHAR(50) UNIQUE NOT NULL,
+  email VARCHAR(50) UNIQUE NOT NULL,
+  password VARCHAR(50) NOT NULL
+); */
+
+
+/* USE new_delta; */
+
+CREATE TABLE user (
+  id VARCHAR(50) PRIMARY KEY,
+  username VARCHAR(50) UNIQUE NOT NULL,
+  email VARCHAR(50) UNIQUE NOT NULL,
+  password VARCHAR(50) NOT NULL
+);
+
+SHOW TABLES;
